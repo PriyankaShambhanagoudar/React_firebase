@@ -20,7 +20,7 @@ const NewTask = (props) => {
             'Content-Type': 'application/json',
           },
         }
-      );
+      ); 
 
       if (!response.ok) {
         throw new Error('Request failed!');
