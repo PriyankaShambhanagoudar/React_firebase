@@ -18,7 +18,7 @@ const NewTask = (props) => {
           body: JSON.stringify({ text: taskText }),
           headers: {
             'Content-Type': 'application/json',
-          },
+          }, 
         }
       ); 
 
